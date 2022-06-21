@@ -5,6 +5,7 @@ function Meni(){
         <div>
             <ul>
                 <Link to={"/"}><li>Početna</li></Link>
+                <Link to={"/rezervacija"}><li>Rezervacija</li></Link>
             </ul>
         </div>
     )
