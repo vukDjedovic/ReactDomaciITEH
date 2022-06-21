@@ -1,6 +1,7 @@
 import Meni from "../komponente/Meni";
 import {useState } from 'react';
 import axios from 'axios';
+import IzborHotela from "../komponente/IzborHotela";
 
 function Pocetna(){
 
@@ -26,7 +27,6 @@ function Pocetna(){
                 console.error(error);
             });
  }
-
  
     return (
         <div>
@@ -37,6 +37,8 @@ function Pocetna(){
                 <input type="text" className="form-control" id="inputgrad" value={grad} onChange={e => setGrad(e.target.value)}  />
                 <button type="button" onClick={vratiHoteleZaGrad} className="btn btn-dark" id="dugmepretraga" >Pretraga</button>
             </div>
+
+            <IzborHotela hoteli={hoteli} />
 
         </div>
     )

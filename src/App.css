@@ -85,3 +85,28 @@ li a:hover {
   margin-left: 30px;
   width: 200px;
 }
+
+#izborhoteladiv{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 330px;
+}
+
+
+#izborselect{
+  margin-left: 38px;
+  width: 350px;
+}
+
+#dugmerezervacija{
+  width: 200px;
+  margin-left: 35px;
+}
+
+#izborselect{
+  height: 40px;
+}
+
+#naslovhotel{
+  margin-left: 65px;
+}
