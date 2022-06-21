@@ -110,3 +110,13 @@ li a:hover {
 #naslovhotel{
   margin-left: 65px;
 }
+
+#rezfrm{
+  width: 850px;
+  margin-left: 350px;
+}
+
+#potvrda{
+  margin-top: 10px;
+  width: 300px;
+}
