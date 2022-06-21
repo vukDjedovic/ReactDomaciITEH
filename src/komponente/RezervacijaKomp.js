@@ -38,7 +38,7 @@ function RezervacijaKomp(props){
     <input type="text" className="form-control mb-3" onChange={e => setBrOsoba(e.target.value)} value={brOsoba}/>
 
 
-    <button type="button" className="btn btn-dark" id="potvrda">Potvrdi rezervaciju</button>
+    <button type="button" className="btn btn-dark" id="potvrda" onClick={() => props.potvrda()}>Potvrdi rezervaciju</button>
 
 
 </div>

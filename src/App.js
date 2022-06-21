@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Pocetna from './page/Pocetna';
 import Rezervacija from './page/Rezervacija';
+import Uspeh from './page/Uspeh';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Pocetna />} />
             <Route path="/rezervacija" element={<Rezervacija />} />
+            <Route path="/uspeh" element={<Uspeh />} />
           </Routes>
       </Router>
     </div>
