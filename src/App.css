@@ -67,3 +67,21 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+#unos{
+  display: flex;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+
+#inputgrad{
+  width: 350px;
+  margin-left: 35px;
+  height: 40px;
+}
+
+
+#dugmepretraga{
+  margin-left: 30px;
+  width: 200px;
+}
